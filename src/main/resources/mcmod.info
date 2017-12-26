@@ -1,0 +1,17 @@
+[
+{
+  "modid": "poorores",
+  "name": "Poor Ores",
+  "description": "Adding Poor Ores for standard Minecraft ores",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "Minevid aka Reynout" ],
+  "credits": "Created by Minevid aka Reynout",
+  "logoFile": "",
+  "screenshots": [],
+  "parent":"",
+  "dependencies": []
+}
+]
