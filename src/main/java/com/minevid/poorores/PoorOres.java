@@ -20,17 +20,25 @@ public class PoorOres {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
         Util.getLogger().info("Pre initialize");
-        proxy.registerRenders();
+        proxy.preInit(event);
+
+
     }
+
+
+
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
         Util.getLogger().info("Initialize");
+        proxy.init(event);
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
         Util.getLogger().info("Post Initialize");
-
+        proxy.postInit(event);
     }
 }
+
+
